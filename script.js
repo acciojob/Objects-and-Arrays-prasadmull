@@ -11,7 +11,7 @@ let team1=[];
 for(let name of players){
 	team1.push(name);
 }
-let cap1=Object.assign({},players);
+let cap1=Object.assign({},person);
 window.players = players;
 window.person = person;
 window.team = team;
